@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.36675731637364517,
+    "zoomFactor": 0.40512398785679476,
     "windowMask": false
   },
   "objectsGroups": [
@@ -3737,6 +3737,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FlatHeartBar",
+      "persistentUuid": "bdf4f236-75cd-431f-9905-369b5a1901fa",
+      "width": 0,
+      "x": 1399,
+      "y": 366,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -4941,6 +4957,34 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 3,
+          "CurrentHealth": 0,
+          "MaxHealth": 3,
+          "DamageCooldown": 0,
+          "AllowOverHealing": false,
+          "IsHealthJustDamaged": false,
+          "DamageToBeApplied": 0,
+          "HitAtLeastOnce": false,
+          "ChanceToDodge": 0,
+          "IsJustDodged": false,
+          "HealToBeApplied": 0,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 2.0247e-320,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ShieldDamageTaken": 2.0247e-320,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0
+        },
+        {
           "isFolded": true,
           "name": "ScreenWrap",
           "type": "ScreenWrap::ScreenWrap",
@@ -4953,9 +4997,9 @@
           "TriggerOffset": 0
         },
         {
-          "deceleration": 0,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "deceleration": 0,
           "acceleration": 10000,
           "allowDiagonals": false,
           "ignoreDefaultControls": false,
@@ -6011,6 +6055,8 @@
           "TriggerOffset": 0
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 10000,
           "allowDiagonals": false,
           "angleOffset": 0,
@@ -6020,9 +6066,7 @@
           "ignoreDefaultControls": true,
           "maxSpeed": 200,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         }
       ],
@@ -6940,6 +6984,41 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "c807d51d4bab0016401aef4d64d10d137f5ac8738ffa15865e1bc81435b9720b",
+      "name": "FlatHeartBar",
+      "type": "TiledUnitsBar::TiledUnitsBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "UnitWidth": 90,
+        "HideBackground": true,
+        "ShowBackground": false
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 0,
+          "height": 90,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Heart Empty.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 270
+        },
+        "Bar": {
+          "height": 90,
+          "texture": "Flat Heart Empty.png",
+          "width": 90
+        },
+        "FillBar": {
+          "height": 90,
+          "texture": "Flat Heart Filled.png",
+          "width": 90
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -6982,6 +7061,9 @@
       },
       {
         "objectName": "BrownBlock"
+      },
+      {
+        "objectName": "FlatHeartBar"
       }
     ]
   },
@@ -7159,19 +7241,20 @@
             "value": "SeparateFromObjects"
           },
           "parameters": [
-            "Grinch",
-            "BrownBlock",
+            "Whos",
+            "NewSprite",
             "="
           ]
         },
         {
           "type": {
-            "value": "SeparateFromObjects"
+            "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
           },
           "parameters": [
-            "Whos",
-            "NewSprite",
-            "="
+            "FlatHeartBar",
+            "=",
+            "Grinch.Health::Health()",
+            ""
           ]
         }
       ]
@@ -7300,12 +7383,32 @@
       "conditions": [
         {
           "type": {
-            "value": "NumberVariable"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "Presents_Collected",
-            "=",
-            "206"
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Presents_Collected",
+                "=",
+                "206"
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "Grinch",
+                "Health",
+                "=",
+                "0",
+                ""
+              ]
+            }
           ]
         }
       ],
@@ -7393,18 +7496,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "Whos",
-            "BrownBlock",
-            "="
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -7470,6 +7562,62 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Grinch",
+            "Whos",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "Grinch",
+            "Health",
+            "1",
+            "no",
+            "no",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreAutourPos"
+          },
+          "parameters": [
+            "Grinch",
+            "672",
+            "808",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreAutourPos"
+          },
+          "parameters": [
+            "Whos",
+            "672",
+            "500",
+            "0",
+            "0"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -7483,7 +7631,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "",
       "renderingType": "",
       "visibility": true,
@@ -7596,6 +7744,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
     },
     {
       "name": "Opacity",
