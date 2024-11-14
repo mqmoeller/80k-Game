@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 216,
+    "build": 217,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -63,7 +63,618 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "Pacman Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pacman Background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_black space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_black space.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/82e24c48618660952ceb6cede5c9917ceeb4371c9e971f4a49fb43689d045d89_tiled_black space.png",
+          "name": "tiled_black space.png"
+        }
+      },
+      {
+        "file": "assets/Kenney Mini Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/BerkshireSwash-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "68a5dc0db819d176c1744185164579a9b7c4231b6386d9e1e0966e520f850fcc_BerkshireSwash-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/68a5dc0db819d176c1744185164579a9b7c4231b6386d9e1e0966e520f850fcc_BerkshireSwash-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_dead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_dead.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/df7cafea9570ecddb21e36c3d1883cf7cc7ce46c714a8c4b0aa21c7ca5d17030_Green player_dead.png",
+          "name": "Green player_dead.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_duck.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_duck.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/d268a978d01efb872e71dcae025a198d2dfc968d98c5450be2bffbd96b561396_Green player_duck.png",
+          "name": "Green player_duck.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_fall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_fall.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/0d4a291c4ae298aff8de5c32a317dd9df210a5c01a96e3147ea5851716160d4b_Green player_fall.png",
+          "name": "Green player_fall.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_hit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_hit.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/cebb1a2a3f63ddf201b77dad590f04a7d08a56c130458f26ea53a4196cf25d73_Green player_hit.png",
+          "name": "Green player_hit.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_roll.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_roll.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/4706125007ea6c12f47476d8dee45643ea9467ffb47a0ed3cf96df56233bcd83_Green player_roll.png",
+          "name": "Green player_roll.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_stand.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_stand.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/a6887cece00dbc9c2119ef713596c4ec2713f20a2974b65fc94fc96d65ae8522_Green player_stand.png",
+          "name": "Green player_stand.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_swim_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_swim_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/e895f6d05a8d5a8b2c5690442077130625abd07ff8902427d1469d6b4e016ec1_Green player_swim_1.png",
+          "name": "Green player_swim_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_swim_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_swim_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/3bf5e70de42e7c3bbdcc738181bd0b8f521c5dd03b40c246729c8043ed7d42fc_Green player_swim_2.png",
+          "name": "Green player_swim_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_switch_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_switch_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/88783556fbf6d7b575667ade7df928f105bacf067da1daf0c6fc2185993aafc3_Green player_switch_1.png",
+          "name": "Green player_switch_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_switch_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_switch_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/14f44829b9e6ce80a445891608cb7a415b4d759887094008c9bfe7e50fc37ef8_Green player_switch_2.png",
+          "name": "Green player_switch_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_up_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/ab4f860fbc5e9c941ba6fc84cf95c545bb028634749e3634398af064a11a85aa_Green player_up_1.png",
+          "name": "Green player_up_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_up_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/42ee23fb69505ac310ac6c1e41f3403f96a5ecea4f4be46bdfe90e3a309c96d6_Green player_up_2.png",
+          "name": "Green player_up_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_up_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/02944fa2a7377d972cd73d43f80173982e5cddeb2dfa57e813dd03338c77c735_Green player_up_3.png",
+          "name": "Green player_up_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_walk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_walk_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/102ad1f1b2b9ab84e7c913c1f3fff632d1193d1d438e2a44d5b7599a1daacb86_Green player_walk_1.png",
+          "name": "Green player_walk_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_walk_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/990d75b402b03365ed3a481884968791a03974c8bf35b27381735b3d32dd527f_Green player_walk_2.png",
+          "name": "Green player_walk_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_walk_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/b01cddd49ce1c56a84652ee7d1286e174b58465fec0fd1b710cef0f3565d2aa3_Green player_walk_3.png",
+          "name": "Green player_walk_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_walk_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_walk_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/84a6b05c4eb56d61d688093afb313678363f52e4da8de1ca482c3ad3bc3050ed_Green player_walk_4.png",
+          "name": "Green player_walk_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green player_walk_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green player_walk_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Green/f224ee41ad915cfb1acbdadedec087025848c5a29682b149e0e93a95d1dd328b_Green player_walk_5.png",
+          "name": "Green player_walk_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Red",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Red2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Green.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Red3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Purple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Red4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_dead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_dead.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/906c71dfc05b7ce84ca9de2c21a8f84151b9708818a49c0e28e01853e68956e0_Blue player_dead.png",
+          "name": "Blue player_dead.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_duck.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_duck.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/5a412597e85b2dfd798d822f050e068b430b3819475a1a47d42685b02a209dd7_Blue player_duck.png",
+          "name": "Blue player_duck.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_fall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_fall.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/7814d3f8d3acb10b6f03c00fe8a04c1486415d85850a5dc1121bc63c65a4dee7_Blue player_fall.png",
+          "name": "Blue player_fall.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_hit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_hit.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/93df8d0ffa8ab66999aa72cfa151c8e04afd3d555e5452fd931a4dee0f6ae74d_Blue player_hit.png",
+          "name": "Blue player_hit.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_roll.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_roll.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/1fa88dd585f63bbe2a0abf64896531e1d579dad18567d6b3ae19f557c8c3f438_Blue player_roll.png",
+          "name": "Blue player_roll.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_stand.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_stand.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/16b5cb814580d40456eb79eda21a2809bddd403bf2281c1c7228aed0d3299600_Blue player_stand.png",
+          "name": "Blue player_stand.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_swim_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_swim_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/8de1841878e6c96dacee8703d3cd012184758f2d6a4e733c21d04f0b7d99c27e_Blue player_swim_1.png",
+          "name": "Blue player_swim_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_swim_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_swim_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/a515b387f4ec0b78c214baaf100651dcb5dc1f7cc42c1f48dd6b6a003f47d331_Blue player_swim_2.png",
+          "name": "Blue player_swim_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_switch_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_switch_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/1c62cecf83f255a43ab89418dea2d10d32f02bbb25e68a60bfd090fa22d32f19_Blue player_switch_1.png",
+          "name": "Blue player_switch_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_switch_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_switch_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/be2a35ed875ef54121034e3dbd1b805181d3aab67e2a2bd152f463ff66ce645c_Blue player_switch_2.png",
+          "name": "Blue player_switch_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_up_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/8bc569c6baa83426caa84de02480912770e2b2ff335f8e4c6270fcd01bff1175_Blue player_up_1.png",
+          "name": "Blue player_up_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_up_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/94d5b4b691ff12ec0ac1c7ad9f1325b6ae644751d9559509b8038bf128d90bdd_Blue player_up_2.png",
+          "name": "Blue player_up_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_up_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/fce285e8d3c3ebd62af3e862ec77fc83d00d917ccd2afb0c86681bca8a9de699_Blue player_up_3.png",
+          "name": "Blue player_up_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_walk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_walk_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/d96968d16da6e212be2c14eefe14cec18f45274cfc99fde5676875ea477b758b_Blue player_walk_1.png",
+          "name": "Blue player_walk_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_walk_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/1f8a502bb00c514fd0e944574280a70a98824ecd6d022f51cca759ef3f645d22_Blue player_walk_2.png",
+          "name": "Blue player_walk_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_walk_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/5829812a5c39c05752515d0bcf0371d8d8ddaeceaffe17ddfadbf4c8485ce886_Blue player_walk_3.png",
+          "name": "Blue player_walk_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_walk_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_walk_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/846d9168c14f5a529bf7e5e0a17680b55ec4624dab7fd3119391b65a26aefe82_Blue player_walk_4.png",
+          "name": "Blue player_walk_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue player_walk_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue player_walk_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Players/Player Blue/555525c9434c8f41c5b7d811fe766f8f1ecc3306c6c409877d7916c11a0c1c31_Blue player_walk_5.png",
+          "name": "Blue player_walk_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Brown block.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Brown block.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/ef43c251ef0b4456e717d7ea8db3de741973ddf7cb405118b72a434debe3852a_Brown block.png",
+          "name": "Brown block.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Brown block_broken.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Brown block_broken.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/48ff796cf60bf6bbe3913de0900a09045610b80643b04f1a022431e6d6b116af_Brown block_broken.png",
+          "name": "Brown block_broken.png"
+        }
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -75,11 +686,20 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
+      "referenceTo": "/layouts/stealing"
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/linktools"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/screenwrap"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
