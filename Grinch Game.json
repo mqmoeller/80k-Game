@@ -725,6 +725,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/4158f811cf0bb821a58f98d8cb78f2257ee590210091ab56b46703e94044ee7a_Flat Heart Filled.png",
           "name": "Flat Heart Filled.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mayan Pyramid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mayan Pyramid.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Building/247077719c4b492480a9bb264769a3051af2b54143ed08120225989af2fb953f_Mayan Pyramid.png",
+          "name": "Mayan Pyramid.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -738,7 +751,23 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/story-intro"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/stealing"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/story-middle"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/returning"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/story-end"
     }
   ],
   "externalEvents": [],
