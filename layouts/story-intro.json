@@ -18,29 +18,46 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.2890516203134917,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [
     {
-      "name": "Scene",
+      "name": "Story",
+      "type": "structure",
+      "children": [
+        {
+          "name": "StoryParagraphs.0",
+          "type": "string",
+          "value": "Every Who Down in Whoville Liked Christmas a lot... But the Grinch,Who lived just north of Whoville, Did NOT!"
+        },
+        {
+          "name": "StoryParagraphs.1",
+          "type": "string",
+          "value": "The Grinch hated Christmas! The whole Christmas season! Now, please don't ask why. No one quite knows the reason."
+        }
+      ]
+    },
+    {
+      "name": "CurrentParagraphIndex",
       "type": "number",
-      "value": 1
+      "value": 0
     }
   ],
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 647,
       "keepRatio": true,
-      "layer": "",
-      "name": "Tests",
-      "persistentUuid": "9487d887-815c-467f-abda-424aac11742e",
-      "width": 0,
-      "x": 960,
-      "y": 540,
+      "layer": "Scene 1",
+      "name": "_1",
+      "persistentUuid": "42a46fe6-ae6c-494b-bdaf-2fd8ed03a3eb",
+      "width": 1498,
+      "x": 222,
+      "y": 322,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -48,15 +65,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 716,
       "keepRatio": true,
-      "layer": "Scene 1",
-      "name": "Tests",
-      "persistentUuid": "c0265451-26ee-42fa-86c0-2cfbea0bde77",
-      "width": 0,
-      "x": 566,
-      "y": 333,
+      "layer": "Scene 2",
+      "name": "_2",
+      "persistentUuid": "0ea5230f-eab6-4f90-bf84-d31b6f524b1b",
+      "width": 1594,
+      "x": 222,
+      "y": 319,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -64,16 +82,68 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 663,
       "keepRatio": true,
-      "layer": "Scene 2",
-      "name": "Tests",
-      "persistentUuid": "5eb74d87-410b-442f-9a4c-02110b0ec0ec",
-      "width": 0,
-      "x": 1306,
-      "y": 112,
+      "layer": "Scene 3",
+      "name": "_3",
+      "persistentUuid": "0192ac2d-ed9d-4245-b892-8c46541429d3",
+      "width": 1461,
+      "x": 222,
+      "y": 322,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 783,
+      "keepRatio": true,
+      "layer": "Scene 4",
+      "name": "_4",
+      "persistentUuid": "ef48f6d2-e27b-4c3c-91b2-4d19027be099",
+      "width": 1680,
+      "x": 222,
+      "y": 320,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 736,
+      "keepRatio": true,
+      "layer": "Scene 5",
+      "name": "_5",
+      "persistentUuid": "c55deae1-d795-461c-81b1-907d93eb0525",
+      "width": 1512,
+      "x": 222,
+      "y": 320,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 675,
+      "keepRatio": true,
+      "layer": "Scene 6",
+      "name": "_6",
+      "persistentUuid": "3b1a2b74-29a0-4320-954d-df89c11738e2",
+      "width": 1519,
+      "x": 222,
+      "y": 321,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -139,6 +209,150 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "_1",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Every Who Down in Whoville Liked Christmas a lot...\nBut the Grinch,Who lived just north of Whoville, Did NOT!\n\nThe Grinch hated Christmas! The whole Christmas season!\nNow, please don't ask why. No one quite knows the reason.\n\nHe stood there on Christmas Eve, hating the Whos,\nStaring down from his cave with a sour, Grinchy frown.\n\nNext\n",
+        "opacity": 255,
+        "fontSize": 40,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "_2",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "\"Tomorrow is Christmas! It's practically here!\"\nThen he growled, with his Grinch fingers nervously drumming,\n\"I MUST find some way to stop Christmas from coming!\"\n\nFor Tomorrow, he knew, all the Who girls and boys,\nWould wake bright and early. They'd rush for their toys!\n\n\n\nNext",
+        "opacity": 255,
+        "fontSize": 40,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "_3",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Every Who down in Whoville, the tall and the small,\nWould stand close together, with Christmas bells ringing.\nThey'd stand hand-in-hand. And the Whos would start singing!\nAnd the more the Grinch thought of this Who ChristmasSing,\nThe more the Grinch thought, \"I must stop this whole thing!\"\n\"Why, for fifty-three years I've put up with it now!\"\n\"I MUST stop this Christmas from coming! But HOW?\"\n\n\nNext",
+        "opacity": 255,
+        "fontSize": 40,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "_5",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Then the Grinch said, \"Giddap!\" And the sleigh started down,\nToward the homes where the Whos Lay asnooze in their town.\n\nThe Grinch slithered and slunk, with a smile most unpleasant,\nTo sneak into Whoville and take every present.\n\nThe ribbons, the wrappings, the trimmings, the trappings,\nThe food for the feast—all the Who-Christmas trappings!\n\nNext",
+        "opacity": 255,
+        "fontSize": 40,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "_4",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Then he got an idea! An awful idea!\n\"I know just what to do!\" The Grinch laughed in his throat.\nAnd he made a quick Santy Claus hat and a coat.\nAnd he chuckled, and clucked, \"What a great Grinchy trick!\"\n\"With this coat and this hat, I look just like Saint Nick!\"\n\"All I need is a reindeer...\" The Grinch looked around.\n\"If I can't find a reindeer, I'll make one instead!\"\nSo he called his dog, Max.\n\nNext",
+        "opacity": 255,
+        "fontSize": 40,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "_6",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "But the Whos aren't fools—they patrol every street,\nTo protect their gifts and the Christmas treat!\n\nNow it's YOUR turn to help the Grinch succeed.\nSteal the presents, fulfill his need!\nBut beware of the Whovillagers who roam the land,\nAvoid their sights and their reprimanding hand!\n\n\nNext",
+        "opacity": 255,
+        "fontSize": 40,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "_7",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Every Who down in Whoville, the tall and the small,\nWould stand close together, with Christmas bells ringing.\nThey'd stand hand-in-hand. And the Whos would start singing!\nAnd the more the Grinch thought of this Who ChristmasSing,\nThe more the Grinch thought, \"I must stop this whole thing!\"\n\"Why, for fifty-three years I've put up with it now!\"\n\"I MUST stop this Christmas from coming! But HOW?\"\n\n\nNext",
+        "opacity": 255,
+        "fontSize": 40,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "_8",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Every Who down in Whoville, the tall and the small,\nWould stand close together, with Christmas bells ringing.\nThey'd stand hand-in-hand. And the Whos would start singing!\nAnd the more the Grinch thought of this Who ChristmasSing,\nThe more the Grinch thought, \"I must stop this whole thing!\"\n\"Why, for fifty-three years I've put up with it now!\"\n\"I MUST stop this Christmas from coming! But HOW?\"\n\n\nNext",
+        "opacity": 255,
+        "fontSize": 40,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -146,6 +360,30 @@
     "children": [
       {
         "objectName": "Tests"
+      },
+      {
+        "objectName": "_1"
+      },
+      {
+        "objectName": "_2"
+      },
+      {
+        "objectName": "_3"
+      },
+      {
+        "objectName": "_4"
+      },
+      {
+        "objectName": "_5"
+      },
+      {
+        "objectName": "_6"
+      },
+      {
+        "objectName": "_7"
+      },
+      {
+        "objectName": "_8"
       }
     ]
   },
@@ -167,9 +405,117 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "Scene",
+            "Story",
             "=",
-            "3"
+            "6"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Scene 5\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Scene 6\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Story",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "Next",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Story",
+            "=",
+            "5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Scene 4\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Scene 5\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Story",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "Next",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Story",
+            "=",
+            "4"
           ]
         }
       ],
@@ -197,7 +543,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "Scene",
+            "Story",
             "+",
             "1"
           ]
@@ -221,7 +567,7 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "Scene",
+            "Story",
             "=",
             "3"
           ]
@@ -251,7 +597,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "Scene",
+            "Story",
             "+",
             "1"
           ]
@@ -275,7 +621,7 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "Scene",
+            "Story",
             "=",
             "2"
           ]
@@ -305,7 +651,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "Scene",
+            "Story",
             "+",
             "1"
           ]
@@ -329,7 +675,7 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "Scene",
+            "Story",
             "=",
             "1"
           ]
@@ -359,7 +705,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "Scene",
+            "Story",
             "+",
             "1"
           ]
@@ -374,9 +720,9 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "Scene",
+            "Story",
             "=",
-            "100"
+            "10"
           ]
         }
       ],
@@ -452,7 +798,7 @@
       "isLocked": false,
       "name": "Scene 1",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -518,7 +864,7 @@
       "isLocked": false,
       "name": "Scene 3",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -551,7 +897,73 @@
       "isLocked": false,
       "name": "Scene 4",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Scene 5",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Scene 6",
+      "renderingType": "",
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -576,10 +988,6 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "ButtonFSM",
-      "type": "ButtonStates::ButtonFSM"
     },
     {
       "name": "Effect",
