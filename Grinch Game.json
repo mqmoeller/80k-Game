@@ -792,6 +792,41 @@
         "name": "Purple2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Start button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Start button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/67518336539938a40e89dc0cd62158e4734abd706c9307a30244c879c4829225_Start button.png",
+          "name": "Start button.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Start button2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Start button.png2",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Light/0f3e4ba2cca8da6294335470d802b0aa66fc1c3616b4002ae453387e2c3c74ba_Start button.png",
+          "name": "Start button.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tint.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tint",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -803,6 +838,10 @@
   "objectsGroups": [],
   "variables": [],
   "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/story-intro-version-1"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/story-intro"

@@ -53,7 +53,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "Words",
-      "name": "options",
+      "name": "next",
       "persistentUuid": "398e20d2-2734-460c-850a-a50abc353c22",
       "width": 0,
       "x": 1633,
@@ -111,7 +111,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "options",
+      "name": "next",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -217,7 +217,7 @@
         "objectName": "dialogue"
       },
       {
-        "objectName": "options"
+        "objectName": "next"
       },
       {
         "objectName": "Background"
@@ -251,7 +251,7 @@
             "value": "Montre"
           },
           "parameters": [
-            "options",
+            "next",
             ""
           ]
         },
