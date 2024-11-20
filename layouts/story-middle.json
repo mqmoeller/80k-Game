@@ -395,11 +395,10 @@
       "conditions": [
         {
           "type": {
-            "value": "DialogueTree::CompareDialogueStateBooleanVariable"
+            "value": "DialogueTree::CurrentBranchTitle"
           },
           "parameters": [
-            "\"Done\"",
-            "True"
+            "\"test\""
           ]
         }
       ],
