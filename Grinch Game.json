@@ -770,6 +770,28 @@
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Dialogue.json\"}",
         "name": "Dialogue",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Orange leaves_all_128.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Orange leaves_all_128.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Ground/a0876f79b74f1010a87c1dffc3cd4fbdd306d42d713dabb21d257857a5065966_9patch_Orange leaves_all_128.png",
+          "name": "9patch_Orange leaves_all_128.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Purple2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
