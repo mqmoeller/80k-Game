@@ -4,8 +4,8 @@
 		"tags": "",
 		"body": "\"They're just waking up! I know just what they'll do! Whos down in Whoville will all cry BooHoo!\"\n\"That's a noise,\" grinned the Grinch, \"That I simply MUST hear!\" So he paused. And the Grinch put his hand to his ear.\n\n[[Next|Option2]]",
 		"position": {
-			"x": 399,
-			"y": 240
+			"x": 398,
+			"y": 239
 		},
 		"colorID": 0
 	},
@@ -22,7 +22,7 @@
 	{
 		"title": "option4",
 		"tags": "",
-		"body": "\"Maybe Christmas,\" he thought, \"doesn't come from a store.\"\n\"Maybe Christmas...perhaps...means a little bit more!\"\n\nAnd what happened then? Well...in Whoville they say,\nThat the Grinch's small heart Grew three sizes that day!\nAnd the minute his heart didn't feel quite so tight,\nHe whizzed with his load through the bright morning light,\nAnd he brought back the toys! And the food for the feast!\n\nMission: Return the presents to each Who in Whoville\n",
+		"body": "\"Maybe Christmas,\" he thought, \"doesn't come from a store.\"\n\"Maybe Christmas...perhaps...means a little bit more!\"\n\nAnd what happened then? Well...in Whoville they say,\nThat the Grinch's small heart Grew three sizes that day!\nAnd the minute his heart didn't feel quite so tight,\nHe whizzed with his load through the bright morning light,\nAnd he brought back the toys! And the food for the feast!\n\nMission: Return the presents to each Who in Whoville\n\n",
 		"position": {
 			"x": 1107,
 			"y": 243
