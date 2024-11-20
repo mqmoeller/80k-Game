@@ -762,6 +762,14 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Dialogue.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Dialogue.json\"}",
+        "name": "Dialogue",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
