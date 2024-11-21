@@ -827,6 +827,42 @@
         "name": "tint",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_0056.JPG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_0056.JPG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_0057.JPG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_0057.JPG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_0058.JPG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_0058.JPG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_0059.JPG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_0059.JPG",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

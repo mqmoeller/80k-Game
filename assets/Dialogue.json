@@ -2,10 +2,10 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "Every Who Down in Whoville Liked Christmas a lot... But the Grinch who lived just north of Whoville, Did NOT! The Grinch hated Christmas! The whole Christmas season!\n\nNow, please don't ask why. No one quite knows the reason. He stood there on Christmas Eve, hating the Whos, staring down from his cave with a sour, Grinchy frown.\n\n\n[[Next|Option2]]",
+		"body": "Every Who Down in Whoville Liked Christmas a lot... But the Grinch who lived just north of Whoville, Did NOT! \n\nThe Grinch hated Christmas! The whole Christmas season!\n\nNow, please don't ask why. No one quite knows the reason. \nHe stood there on Christmas Eve, hating the Whos, staring down from his cave with a sour, Grinchy frown.\n\n\n[[Next|Option2]]",
 		"position": {
-			"x": -12,
-			"y": 58
+			"x": -13,
+			"y": 57
 		},
 		"colorID": 0
 	},
