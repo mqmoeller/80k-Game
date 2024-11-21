@@ -944,6 +944,71 @@
         "name": "Grass6",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "whoville.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "whoville.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Box_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Box_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/258669cacf08185c2669b23435ca5e6c769fcb2355d98abaa15dd0b456469a47_Green Box_No Shadow.png",
+          "name": "Green Box_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Box_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Box_Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/3cce2c7b53a6d4d000a9146184f716507ac65e19788d51d03086fbb80dda561d_Green Box_Shadow.png",
+          "name": "Green Box_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Box.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/5f998fc3fa4e18ec9b833a5c26b2295e8f2ad8dffb75cad490a4fded5386ff1f_Box.png",
+          "name": "Box.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "whoville2.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "whoville2.jpeg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Dialogue2.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Dialogue2.json\"}",
+        "name": "Dialogue2",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
