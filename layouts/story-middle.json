@@ -33,33 +33,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 7,
-      "height": 1107,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Background",
-      "persistentUuid": "87a7c754-c1fc-44d6-a4f1-9e5fddbf476f",
-      "width": 2180,
-      "x": -136,
-      "y": -11,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 1,
       "height": 67,
       "keepRatio": true,
       "layer": "Words",
-      "name": "dialogue2",
-      "persistentUuid": "7a9313d5-1392-4a86-8561-c43112b31cdd",
-      "width": 1244,
-      "x": 176,
-      "y": 111,
-      "zOrder": 2,
+      "name": "dialogue",
+      "persistentUuid": "41dcd0c8-d634-40b2-bf1a-3820b172eae8",
+      "width": 1292,
+      "x": 346,
+      "y": 346,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -71,11 +54,11 @@
       "keepRatio": true,
       "layer": "Words",
       "name": "next",
-      "persistentUuid": "d7123f3d-8d6f-4f36-82ca-83c3abcffb9b",
+      "persistentUuid": "398e20d2-2734-460c-850a-a50abc353c22",
       "width": 0,
-      "x": 1744,
-      "y": 104,
-      "zOrder": 3,
+      "x": 1633,
+      "y": 887,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -84,9 +67,9 @@
   "objects": [
     {
       "assetStoreId": "",
-      "bold": true,
+      "bold": false,
       "italic": false,
-      "name": "dialogue2",
+      "name": "dialogue",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -98,12 +81,12 @@
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
-        "b": 239,
-        "g": 239,
-        "r": 245
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
       "content": {
-        "bold": true,
+        "bold": false,
         "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
@@ -121,7 +104,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 40,
-        "color": "245;239;239"
+        "color": "0;0;0"
       }
     },
     {
@@ -135,14 +118,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Next",
+      "string": "next",
       "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
       "textAlignment": "left",
-      "characterSize": 45,
+      "characterSize": 40,
       "color": {
-        "b": 248,
-        "g": 248,
-        "r": 253
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
       "content": {
         "bold": false,
@@ -158,12 +141,12 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Next",
+        "text": "next",
         "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 45,
-        "color": "253;248;248"
+        "characterSize": 40,
+        "color": "0;0;0"
       }
     },
     {
@@ -186,7 +169,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "whoville2.jpeg",
+                  "image": "Purple2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -202,80 +185,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 413,
+                        "y": 426
                       },
                       {
-                        "x": 315,
-                        "y": 0
+                        "x": 554,
+                        "y": 426
                       },
                       {
-                        "x": 315,
-                        "y": 160
+                        "x": 554,
+                        "y": 576
                       },
                       {
-                        "x": 0,
-                        "y": 160
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "6397b4b4b0444c2cd4e7fef6653bd375506a2ab5e54d92505396ad62bd3e0856",
-      "name": "Box",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Box.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 44,
-                        "y": 0
-                      },
-                      {
-                        "x": 44,
-                        "y": 46
-                      },
-                      {
-                        "x": 0,
-                        "y": 46
+                        "x": 413,
+                        "y": 576
                       }
                     ]
                   ]
@@ -291,16 +214,13 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "dialogue2"
+        "objectName": "dialogue"
       },
       {
         "objectName": "next"
       },
       {
         "objectName": "Background"
-      },
-      {
-        "objectName": "Box"
       }
     ]
   },
@@ -323,7 +243,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "dialogue2"
+            "dialogue"
           ]
         },
         {
@@ -341,7 +261,7 @@
           },
           "parameters": [
             "",
-            "Dialogue2"
+            "Dialogue"
           ]
         }
       ]
@@ -372,7 +292,7 @@
             "value": "Montre"
           },
           "parameters": [
-            "dialogue2",
+            "dialogue",
             ""
           ]
         },
@@ -413,7 +333,7 @@
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "dialogue2",
+            "dialogue",
             "Text",
             "=",
             "DialogueTree::ClippedLineText()"
@@ -541,7 +461,7 @@
             "value": "DialogueTree::CurrentBranchTitle"
           },
           "parameters": [
-            "\"Nextscene\""
+            "\"test\""
           ]
         }
       ],
