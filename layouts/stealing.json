@@ -8287,32 +8287,14 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Or"
+            "value": "Health::Health::Health"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "Presents_Collected",
-                "=",
-                "206"
-              ]
-            },
-            {
-              "type": {
-                "value": "Health::Health::Health"
-              },
-              "parameters": [
-                "Grinch",
-                "Health",
-                "=",
-                "0",
-                ""
-              ]
-            }
+          "parameters": [
+            "Grinch",
+            "Health",
+            "<=",
+            "0",
+            ""
           ]
         }
       ],
@@ -8355,7 +8337,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "Whos",
+            "Whos3",
             "Animation",
             "=",
             "\"stand\""
@@ -8366,7 +8348,7 @@
             "value": "TopDownMovementBehavior::Deceleration"
           },
           "parameters": [
-            "Whos",
+            "Whos3",
             "TopDownMovement",
             "=",
             "10000"
@@ -8377,10 +8359,37 @@
             "value": "TopDownMovementBehavior::Acceleration"
           },
           "parameters": [
-            "Whos",
+            "Whos3",
             "TopDownMovement",
             "=",
             "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Presents_Collected",
+            ">=",
+            "208"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Story Middle\"",
+            ""
           ]
         }
       ]

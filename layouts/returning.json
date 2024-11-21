@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5629336025033169,
+    "zoomFactor": 0.43175036416576745,
     "windowMask": false
   },
   "objectsGroups": [
@@ -108,23 +108,6 @@
       "x": 1387,
       "y": 28,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 50,
-      "keepRatio": true,
-      "layer": "Layer",
-      "name": "Grinch",
-      "persistentUuid": "1f52a052-b4d9-4359-a099-53ea968c40d9",
-      "width": 63,
-      "x": 642,
-      "y": 783,
-      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3735,32 +3718,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "FlatHeartBar",
-      "persistentUuid": "bdf4f236-75cd-431f-9905-369b5a1901fa",
-      "width": 0,
-      "x": 1399,
-      "y": 366,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 37,
+      "depth": 0,
+      "height": 50.029411764705884,
       "keepRatio": true,
       "layer": "Whos",
-      "name": "Whos2",
-      "persistentUuid": "34f03ff1-aeba-4551-bfaf-1c50ed2f5ccb",
-      "width": 44,
-      "x": 295,
-      "y": 692,
+      "name": "Grinch",
+      "persistentUuid": "ebc4ba63-f8ab-4f83-96bd-2ea44b8f0fc0",
+      "width": 63,
+      "x": 642,
+      "y": 783,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -3768,17 +3735,32 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 46,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
-      "layer": "Whos",
-      "name": "Whos",
-      "persistentUuid": "7bac9224-1837-4dee-82cb-7ae1b21223b2",
-      "width": 49,
-      "x": 710,
-      "y": 380,
+      "layer": "",
+      "name": "Timer",
+      "persistentUuid": "29ea59cb-2afe-4640-84f1-ea6e566be834",
+      "width": 0,
+      "x": 1623,
+      "y": 338,
       "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Time",
+      "persistentUuid": "8599d6ca-56b9-485e-9be0-48425f7b81d2",
+      "width": 0,
+      "x": 1361,
+      "y": 340,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5824,7 +5806,13 @@
       "name": "Red",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Got",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -5876,6 +5864,55 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Grass",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grass3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 78,
+                        "y": 73
+                      },
+                      {
+                        "x": 219,
+                        "y": 73
+                      },
+                      {
+                        "x": 219,
+                        "y": 223
+                      },
+                      {
+                        "x": 78,
+                        "y": 223
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -5885,7 +5922,13 @@
       "name": "Blue",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Got",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -5937,6 +5980,55 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Grass3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grass4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 81,
+                        "y": 73
+                      },
+                      {
+                        "x": 222,
+                        "y": 73
+                      },
+                      {
+                        "x": 222,
+                        "y": 223
+                      },
+                      {
+                        "x": 81,
+                        "y": 223
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -5946,7 +6038,13 @@
       "name": "Green",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Got",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -5998,6 +6096,55 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Grass4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grass5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 81,
+                        "y": 77
+                      },
+                      {
+                        "x": 222,
+                        "y": 77
+                      },
+                      {
+                        "x": 222,
+                        "y": 227
+                      },
+                      {
+                        "x": 81,
+                        "y": 227
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6007,7 +6154,13 @@
       "name": "Purple",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Got",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -6023,6 +6176,55 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Red4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 78,
+                        "y": 77
+                      },
+                      {
+                        "x": 219,
+                        "y": 77
+                      },
+                      {
+                        "x": 219,
+                        "y": 227
+                      },
+                      {
+                        "x": 78,
+                        "y": 227
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Grass5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grass6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7920,6 +8122,90 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Timer",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "150",
+      "font": "68a5dc0db819d176c1744185164579a9b7c4231b6386d9e1e0966e520f850fcc_BerkshireSwash-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 100,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "150",
+        "font": "68a5dc0db819d176c1744185164579a9b7c4231b6386d9e1e0966e520f850fcc_BerkshireSwash-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 100,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Time",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Time:",
+      "font": "68a5dc0db819d176c1744185164579a9b7c4231b6386d9e1e0966e520f850fcc_BerkshireSwash-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 100,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Time:",
+        "font": "68a5dc0db819d176c1744185164579a9b7c4231b6386d9e1e0966e520f850fcc_BerkshireSwash-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 100,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -7949,10 +8235,16 @@
         "objectName": "Point_Display"
       },
       {
+        "objectName": "Timer"
+      },
+      {
         "objectName": "BlackSpace"
       },
       {
         "objectName": "Points"
+      },
+      {
+        "objectName": "Time"
       },
       {
         "objectName": "Grinch"
@@ -8003,6 +8295,59 @@
           "parameters": [
             "Whos",
             "\"Door\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Red",
+            "Animation",
+            "=",
+            "\"Grass\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Blue",
+            "Animation",
+            "=",
+            "\"Grass3\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Green",
+            "Animation",
+            "=",
+            "\"Grass4\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Purple",
+            "Animation",
+            "=",
+            "\"Grass5\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Time\""
           ]
         }
       ]
@@ -8160,6 +8505,17 @@
             "Grinch.Health::Health()",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Timer",
+            "Text",
+            "=",
+            "ToString(150 - floor(TimerElapsedTime(\"Time\")))"
+          ]
         }
       ]
     },
@@ -8168,55 +8524,74 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Or"
+            "value": "BuiltinCommonInstructions::And"
           },
           "parameters": [],
           "subInstructions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "Grinch",
-                "Red",
-                "",
-                "",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Grinch",
+                    "Red",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Grinch",
+                    "Blue",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Grinch",
+                    "Green",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Grinch",
+                    "Purple",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
               ]
             },
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "Grinch",
-                "Blue",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Grinch",
-                "Green",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Grinch",
-                "Purple",
-                "",
-                "",
+                "Presents",
+                "Got",
+                "False",
                 ""
               ]
             }
@@ -8224,15 +8599,6 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Red",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "SetNumberVariable"
@@ -8255,29 +8621,57 @@
         },
         {
           "type": {
-            "value": "Delete"
+            "value": "SetBooleanObjectVariable"
           },
           "parameters": [
-            "Purple",
+            "Presents",
+            "Got",
+            "True",
             ""
           ]
         },
         {
           "type": {
-            "value": "Delete"
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "Green",
-            ""
+            "Red",
+            "Animation",
+            "=",
+            "\"Red\""
           ]
         },
         {
           "type": {
-            "value": "Delete"
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
             "Blue",
-            ""
+            "Animation",
+            "=",
+            "\"Red\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Green",
+            "Animation",
+            "=",
+            "\"Red\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Purple",
+            "Animation",
+            "=",
+            "\"Red\""
           ]
         }
       ]
@@ -8287,32 +8681,13 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Or"
+            "value": "CompareTimer"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "Presents_Collected",
-                "=",
-                "206"
-              ]
-            },
-            {
-              "type": {
-                "value": "Health::Health::Health"
-              },
-              "parameters": [
-                "Grinch",
-                "Health",
-                "=",
-                "0",
-                ""
-              ]
-            }
+          "parameters": [
+            "",
+            "\"Time\"",
+            ">=",
+            "150"
           ]
         }
       ],
@@ -8355,7 +8730,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "Whos",
+            "Whos3",
             "Animation",
             "=",
             "\"stand\""
@@ -8366,7 +8741,7 @@
             "value": "TopDownMovementBehavior::Deceleration"
           },
           "parameters": [
-            "Whos",
+            "Whos3",
             "TopDownMovement",
             "=",
             "10000"
@@ -8377,10 +8752,37 @@
             "value": "TopDownMovementBehavior::Acceleration"
           },
           "parameters": [
-            "Whos",
+            "Whos3",
             "TopDownMovement",
             "=",
             "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Presents_Collected",
+            ">=",
+            "208"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Story End\"",
+            ""
           ]
         }
       ]
@@ -8904,6 +9306,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -8961,7 +9368,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "Layer",
       "renderingType": "",
       "visibility": true,
@@ -8994,7 +9401,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "PRESENTS!!!",
       "renderingType": "",
       "visibility": true,
@@ -9027,7 +9434,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "Whos",
       "renderingType": "",
       "visibility": true,
