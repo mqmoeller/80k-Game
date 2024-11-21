@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.44485159988866496,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -33,16 +33,50 @@
     {
       "angle": 0,
       "customSize": true,
+      "depth": 3,
+      "height": 142,
+      "keepRatio": true,
+      "layer": "Startbutton",
+      "name": "StartButton",
+      "persistentUuid": "db331428-05b7-4f25-8ca4-9b5720d1b5f5",
+      "width": 320,
+      "x": 1481,
+      "y": 331,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1152,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Background",
+      "persistentUuid": "a17d2c88-818a-48ef-babf-3cbfc286646a",
+      "width": 2072,
+      "x": -54,
+      "y": -32,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
       "depth": 1,
       "height": 67,
       "keepRatio": true,
       "layer": "Words",
       "name": "dialogue",
-      "persistentUuid": "41dcd0c8-d634-40b2-bf1a-3820b172eae8",
-      "width": 1292,
-      "x": 346,
-      "y": 346,
-      "zOrder": 1,
+      "persistentUuid": "5e99ae7c-b081-473b-8684-e37b320f4098",
+      "width": 1038,
+      "x": 29,
+      "y": 464,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -54,28 +88,11 @@
       "keepRatio": true,
       "layer": "Words",
       "name": "next",
-      "persistentUuid": "398e20d2-2734-460c-850a-a50abc353c22",
+      "persistentUuid": "b3787663-a8f8-4dd8-8d51-138002dbdd76",
       "width": 0,
-      "x": 1633,
-      "y": 887,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 5,
-      "height": 225,
-      "keepRatio": true,
-      "layer": "Startbutton",
-      "name": "StartButton",
-      "persistentUuid": "db331428-05b7-4f25-8ca4-9b5720d1b5f5",
-      "width": 507,
-      "x": 690,
-      "y": 563,
-      "zOrder": 3,
+      "x": 1288,
+      "y": 703,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -93,14 +110,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Some placeholder text",
+      "string": "Dialogue",
       "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
       "textAlignment": "left",
       "characterSize": 40,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 243,
+        "g": 243,
+        "r": 247
       },
       "content": {
         "bold": false,
@@ -116,12 +133,12 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Some placeholder text",
+        "text": "Dialogue",
         "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 40,
-        "color": "0;0;0"
+        "color": "247;243;243"
       }
     },
     {
@@ -135,14 +152,14 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "next",
+      "string": "Next",
       "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
       "textAlignment": "left",
-      "characterSize": 40,
+      "characterSize": 45,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 250,
+        "g": 250,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -158,12 +175,12 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "next",
+        "text": "Next",
         "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 40,
-        "color": "0;0;0"
+        "characterSize": 45,
+        "color": "255;250;250"
       }
     },
     {
@@ -186,7 +203,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Purple2.png",
+                  "image": "IMG_0057.JPG",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -202,20 +219,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 413,
-                        "y": 426
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 554,
-                        "y": 426
+                        "x": 2700,
+                        "y": 0
                       },
                       {
-                        "x": 554,
-                        "y": 576
+                        "x": 2700,
+                        "y": 1500
                       },
                       {
-                        "x": 413,
-                        "y": 576
+                        "x": 0,
+                        "y": 1500
                       }
                     ]
                   ]

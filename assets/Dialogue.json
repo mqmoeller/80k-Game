@@ -2,10 +2,10 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "Every Who Down in Whoville Liked Christmas a lot... But the Grinch who lived just north of Whoville, Did NOT! The Grinch hated Christmas! The whole Christmas season!\n\nNow, please don't ask why. No one quite knows the reason. He stood there on Christmas Eve, hating the Whos, staring down from his cave with a sour, Grinchy frown.\n\n\n[[Next|Option2]]",
+		"body": "Every Who Down in Whoville Liked Christmas a lot... But the Grinch who lived just north of Whoville, Did NOT! The Grinch hated Christmas! The whole Christmas season!\n\nNow, please don't ask why. No one quite knows the reason. \n\n\n[[Next|Option2]]",
 		"position": {
-			"x": -12,
-			"y": 58
+			"x": -13,
+			"y": 57
 		},
 		"colorID": 0
 	},
@@ -22,7 +22,7 @@
 	{
 		"title": "option4",
 		"tags": "",
-		"body": "Then he got an idea! An awful idea! THE GRINCH GOT A WONDERFUL, AWFUL IDEA! \"I know just what to do!\" The Grinch laughed in his throat.\n\nAnd he made a quick Santy Claus hat and a coat. And he chuckled, and clucked, \"What a great Grinchy trick!With this coat and this hat, I look just like Saint Nick! All I need is a reindeer...\" \n\nThe Grinch looked around. \"If I can't find a reindeer, I'll make one instead!\" So he called his dog, Max. THEN he loaded some bags and some old empty sacks, on a ramshackle sleigh and he hitched up old Max.\n\n\n\n[[next|option5]]",
+		"body": "Then he got an idea! An awful idea! THE GRINCH GOT A WONDERFUL, AWFUL IDEA! \"I know just what to do!\" The Grinch laughed in his throat.\n\nAnd he made a quick Santy Claus hat and a coat. With this coat and this hat, I look just like Saint Nick! All I need is a reindeer...\" \n\nThe Grinch looked around. \"If I can't find a reindeer, I'll make one instead!\" So he called his dog, Max. THEN he loaded some bags and some old empty sacks, on a ramshackle sleigh and he hitched up old Max.\n\n\n\n[[next|option5]]",
 		"position": {
 			"x": 400,
 			"y": 306
@@ -32,7 +32,7 @@
 	{
 		"title": "Option2",
 		"tags": "",
-		"body": "\"Tomorrow is Christmas! It's practically here!\" Then he growled, with his Grinch fingers nervously drumming,\n\"I MUST find some way to stop Christmas from coming!\" For Tomorrow, he knew, all the Who girls and boys would wake bright and early. They'd rush for their toys!\n\n[[next|option3]]",
+		"body": "\"Tomorrow is Christmas! It's practically here! I MUST find some way to stop Christmas from coming!\" For Tomorrow, he knew, all the Who girls and boys would wake bright and early.\n[[next|option3]]",
 		"position": {
 			"x": 260,
 			"y": 57
@@ -52,7 +52,7 @@
 	{
 		"title": "option5",
 		"tags": "",
-		"body": "Then the Grinch said, \"Giddap!\" And the sleigh started down, toward the homes where the Whos lay asnooze in their town. \nThe Grinch slithered and slunk, with a smile most unpleasant, to sneak into Whoville and take every present. The ribbons, the wrappings, the trimmings, the trappings, the food for the feast—all the Who-Christmas trappings!\n\nBut the Whos aren't fools—they patrol every street to protect their gifts and the Christmas treat! Now it's YOUR turn to help the Grinch succeed.\n\nSteal the presents, fulfill his need! But beware of the Whovillagers who roam the land, avoid their sights and their reprimanding hand!\n\n[[next|Nextscene]] |]]",
+		"body": "Then the Grinch said, \"Giddap!\" And the sleigh started down, toward the homes where the Whos lay asnooze in their town. \nThe Grinch slithered and slunk, with a smile most unpleasant, to sneak into Whoville and take every present!\n\nBut the Whos aren't fools—they patrol every street to protect their gifts and the Christmas treat! Now it's YOUR turn to help the Grinch succeed.\n\nSteal the presents, fulfill his need! But beware of the Whovillagers who roam the land, avoid their sights and their reprimanding hand!\n\n[[next|Nextscene]] |]]",
 		"position": {
 			"x": 630,
 			"y": 313

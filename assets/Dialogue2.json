@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "\"They're just waking up! I know just what they'll do! Whos down in Whoville will all cry BooHoo!\"\n\n\"That's a noise,\" grinned the Grinch, \"That I simply MUST hear!\" So he paused. And the Grinch put his hand to his ear.\n\nAnd he did hear a sound rising over the snow. It started in low. Then it started to grow.\n\nBut the sound wasn't sad! Why, this sound sounded merry! Every Who down in Whoville, was singing! Without any presents at all!\n\nHe HADN'T stopped Christmas from coming! IT CAME!\nSomehow or other, it came just the same!\n\nStood puzzling and puzzling: \"How could it be so?\"\nThen the Grinch thought of something he hadn't before!\n\n\"Maybe Christmas,\" he thought, \"doesn't come from a store. Maybe Christmas...perhaps...means a little bit more!\"\n\nAnd what happened then? Well...in Whoville they say, That the Grinch's small heart Grew three sizes that day!\n\nAnd the minute his heart didn't feel quite so tight, he whizzed with his load and he brought back the toys!\n\nMission: Run around to return the presents!\n\n[[next|Nextscene]]",
+		"position": {
+			"x": 401,
+			"y": 241
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Nextscene",
+		"tags": "",
+		"body": "Enters return present scene",
+		"position": {
+			"x": 636,
+			"y": 236
+		},
+		"colorID": 0
+	}
+]

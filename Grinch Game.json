@@ -944,6 +944,49 @@
         "name": "Grass6",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_0057.JPG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_0057.JPG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "whoville2.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "whoville2.jpeg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Dialogue2.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Dialogue2.json\"}",
+        "name": "Dialogue2",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Dialogue3.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Dialogue3.json\"}",
+        "name": "Dialogue3",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "whoville_ending.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "whoville_ending.webp",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
