@@ -827,7 +827,6 @@
         "name": "tint",
         "smoothed": true,
         "userAdded": false
-<<<<<<< HEAD
       },
       {
         "alwaysLoaded": false,
@@ -929,8 +928,6 @@
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/Dialogue2.json\"}",
         "name": "Dialogue2",
         "userAdded": false
-=======
->>>>>>> parent of 514de2f (Returning scene edits)
       }
     ],
     "resourceFolders": []
