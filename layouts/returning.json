@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.43175036416576745,
+    "zoomFactor": 0.3538460623156837,
     "windowMask": false
   },
   "objectsGroups": [
@@ -3761,6 +3761,23 @@
       "x": 1361,
       "y": 340,
       "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1399,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "d410ab68-03bb-4e1e-83a7-09e23581d77d",
+      "width": 2042,
+      "x": -307,
+      "y": -173,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -8206,6 +8223,66 @@
         "characterSize": 100,
         "color": "255;255;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "BACKGROUND.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 175,
+                        "y": 99
+                      },
+                      {
+                        "x": 944,
+                        "y": 99
+                      },
+                      {
+                        "x": 944,
+                        "y": 715
+                      },
+                      {
+                        "x": 175,
+                        "y": 715
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -8260,6 +8337,9 @@
       },
       {
         "objectName": "FlatHeartBar"
+      },
+      {
+        "objectName": "NewSprite2"
       }
     ]
   },
@@ -8348,6 +8428,18 @@
           "parameters": [
             "",
             "\"Time\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "magic-christmas-night-264068.mp3",
+            "yes",
+            "60",
+            "1"
           ]
         }
       ]

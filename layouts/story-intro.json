@@ -380,6 +380,18 @@
             "",
             "Dialogue"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "magic-christmas-night-264068.mp3",
+            "yes",
+            "60",
+            "1"
+          ]
         }
       ]
     },

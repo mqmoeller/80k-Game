@@ -987,6 +987,82 @@
         "name": "whoville_ending.webp",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "magic-christmas-night-264068.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "magic-christmas-night-264068.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "christmas-vibes-windy-whoosh-magical-chimes-180863.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "christmas-vibes-windy-whoosh-magical-chimes-180863.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "christmas-vibes-windy-whoosh-magical-chimes-180862.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "christmas-vibes-windy-whoosh-magical-chimes-180862.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "christmas-chimes-whoosh-264368.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "christmas-chimes-whoosh-264368.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BACKGROUND(NIGHT).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BACKGROUND(NIGHT).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BACKGROUND(NIGHT)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BACKGROUND(NIGHT)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BACKGROUND(NIGHT)3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BACKGROUND(NIGHT)3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BACKGROUND.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BACKGROUND.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -998,10 +1074,6 @@
   "objectsGroups": [],
   "variables": [],
   "layouts": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/story-intro-version-1"
-    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/story-intro"
