@@ -8355,7 +8355,7 @@
             "",
             "magic-christmas-night-264068.mp3",
             "yes",
-            "30",
+            "0",
             "1"
           ]
         }
@@ -8647,16 +8647,6 @@
           "subInstructions": [
             {
               "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "Presents_Collected",
-                ">=",
-                "206"
-              ]
-            },
-            {
-              "type": {
                 "value": "Health::Health::Health"
               },
               "parameters": [
@@ -8665,6 +8655,17 @@
                 "<=",
                 "0",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "Whos3",
+                "Presents",
+                "=",
+                "0"
               ]
             }
           ]
@@ -8976,12 +8977,13 @@
       "conditions": [
         {
           "type": {
-            "value": "NumberVariable"
+            "value": "SceneInstancesCount"
           },
           "parameters": [
-            "Presents_Collected",
-            ">=",
-            "208"
+            "Whos3",
+            "Presents",
+            "=",
+            "0"
           ]
         }
       ],
@@ -9584,7 +9586,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "",
       "renderingType": "",
       "visibility": true,
