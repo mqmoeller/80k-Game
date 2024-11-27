@@ -8355,7 +8355,7 @@
             "",
             "magic-christmas-night-264068.mp3",
             "yes",
-            "0",
+            "30",
             "1"
           ]
         }
@@ -9570,6 +9570,31 @@
           "parameters": [
             "",
             "\"Stealing\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "s"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Story Middle\""
           ]
         }
       ]
