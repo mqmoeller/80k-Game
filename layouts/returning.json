@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3538460623156837,
+    "zoomFactor": 0.2986441283535814,
     "windowMask": false
   },
   "objectsGroups": [
@@ -88,7 +88,7 @@
       "layer": "",
       "name": "BlackSpace",
       "persistentUuid": "0b4e3f06-b49f-4cfd-8b67-1304c57c970b",
-      "width": 628,
+      "width": 1731,
       "x": 1293,
       "y": -1,
       "zOrder": 0,
@@ -3794,6 +3794,39 @@
       "x": 1444,
       "y": 871,
       "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 256,
+      "keepRatio": true,
+      "layer": "End of Scene",
+      "name": "BlackSpace",
+      "persistentUuid": "ad302c0e-341c-43e5-8ac4-d0ffbf260fe2",
+      "width": 1351,
+      "x": -7,
+      "y": 893,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "End of Scene",
+      "name": "End_of_Scene",
+      "persistentUuid": "3ae7111b-1dd5-4f86-86c9-35ffe2d68b3c",
+      "width": 0,
+      "x": 66,
+      "y": 938,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -8383,6 +8416,48 @@
           "width": 192
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "End_of_Scene",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "You returned all of the presents! Hurray!",
+      "font": "68a5dc0db819d176c1744185164579a9b7c4231b6386d9e1e0966e520f850fcc_BerkshireSwash-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 70,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "You returned all of the presents! Hurray!",
+        "font": "68a5dc0db819d176c1744185164579a9b7c4231b6386d9e1e0966e520f850fcc_BerkshireSwash-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -8410,6 +8485,9 @@
       },
       {
         "objectName": "Point_Display"
+      },
+      {
+        "objectName": "End_of_Scene"
       },
       {
         "objectName": "Timer"
@@ -8965,11 +9043,28 @@
           "parameters": [
             "Presents_Collected",
             ">=",
-            "208"
+            "207"
           ]
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"End of Scene\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
         {
           "type": {
             "value": "Scene"
@@ -9539,7 +9634,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "",
       "renderingType": "",
       "visibility": true,
@@ -9583,7 +9678,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "Layer",
       "renderingType": "",
       "visibility": true,
@@ -9653,6 +9748,39 @@
       "name": "Whos",
       "renderingType": "",
       "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": true,
+      "name": "End of Scene",
+      "renderingType": "",
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
