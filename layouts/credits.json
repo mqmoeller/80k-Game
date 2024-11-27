@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Story_32End",
-  "name": "Story End",
+  "mangledName": "Credits",
+  "name": "Credits",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -76,22 +76,6 @@
       "x": -7,
       "y": -116,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "skip",
-      "persistentUuid": "9fd56c59-d397-435f-ac66-1ac5bb228d9c",
-      "width": 0,
-      "x": 1744,
-      "y": 167,
-      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -575,32 +559,6 @@
             "",
             "\"Returning\"",
             ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "ButtonStates::ButtonFSM::IsClicked"
-          },
-          "parameters": [
-            "skip",
-            "ButtonFSM",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PushScene"
-          },
-          "parameters": [
-            "",
-            "\"Credits\""
           ]
         }
       ]

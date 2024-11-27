@@ -8641,14 +8641,32 @@
       "conditions": [
         {
           "type": {
-            "value": "Health::Health::Health"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "Grinch",
-            "Health",
-            "<=",
-            "0",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Presents_Collected",
+                ">=",
+                "206"
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "Grinch",
+                "Health",
+                "<=",
+                "0",
+                ""
+              ]
+            }
           ]
         }
       ],
