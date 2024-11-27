@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.34230347611352274,
+    "zoomFactor": 0.30988612880939315,
     "windowMask": false
   },
   "objectsGroups": [
@@ -88,10 +88,10 @@
       "layer": "",
       "name": "BlackSpace",
       "persistentUuid": "0b4e3f06-b49f-4cfd-8b67-1304c57c970b",
-      "width": 3154,
-      "x": 1344,
+      "width": 628,
+      "x": 1293,
       "y": -1,
-      "zOrder": 25,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -135,7 +135,7 @@
       "depth": 1,
       "height": 431,
       "keepRatio": true,
-      "layer": "Layer",
+      "layer": "",
       "name": "Point_Display",
       "persistentUuid": "df21615d-ad81-466c-844b-bf1eac2404cb",
       "width": 279,
@@ -1791,6 +1791,23 @@
       "x": 1004,
       "y": 373,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 40,
+      "keepRatio": true,
+      "layer": "PRESENTS!!!",
+      "name": "Purple",
+      "persistentUuid": "63b52c35-d511-492d-bb85-255eb2721d6f",
+      "width": 40,
+      "x": 1004,
+      "y": 464,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3721,7 +3738,7 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Layer",
+      "layer": "",
       "name": "FlatHeartBar",
       "persistentUuid": "bdf4f236-75cd-431f-9905-369b5a1901fa",
       "width": 0,
@@ -3736,14 +3753,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 52,
+      "height": 37,
       "keepRatio": true,
       "layer": "Whos",
       "name": "Whos2",
       "persistentUuid": "34f03ff1-aeba-4551-bfaf-1c50ed2f5ccb",
-      "width": 64,
-      "x": 284,
-      "y": 680,
+      "width": 44,
+      "x": 295,
+      "y": 692,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -3759,173 +3776,9 @@
       "name": "Whos",
       "persistentUuid": "7bac9224-1837-4dee-82cb-7ae1b21223b2",
       "width": 49,
-      "x": 571,
-      "y": 374,
+      "x": 710,
+      "y": 380,
       "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Whos",
-      "name": "Whos2",
-      "persistentUuid": "389e2c5e-b144-409f-956c-177e4a66d012",
-      "width": 0,
-      "x": 986,
-      "y": 458,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Whos",
-      "name": "Whos",
-      "persistentUuid": "e3472d03-758b-4204-a975-b704a33cbf56",
-      "width": 0,
-      "x": 589,
-      "y": 980,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Whos",
-      "name": "Whos2",
-      "persistentUuid": "444be384-f30f-41d6-bfd2-c41c456d424d",
-      "width": 0,
-      "x": 1221,
-      "y": 174,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Whos",
-      "name": "Whos",
-      "persistentUuid": "da467764-99d1-4139-9750-5b604c977dbf",
-      "width": 0,
-      "x": 634,
-      "y": 171,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Whos",
-      "name": "Whos",
-      "persistentUuid": "20cea035-8f31-410b-92c0-30f2588f4034",
-      "width": 0,
-      "x": 424,
-      "y": 38,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1398,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "e3bff5ea-78d6-4c08-b999-a4c95cc96b7c",
-      "width": 2043,
-      "x": -305,
-      "y": -175,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 40,
-      "keepRatio": true,
-      "layer": "PRESENTS!!!",
-      "name": "Purple",
-      "persistentUuid": "44d505e5-255c-4c6c-88e2-d024880270d4",
-      "width": 40,
-      "x": 1004,
-      "y": 464,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 150,
-      "keepRatio": true,
-      "layer": "Layer",
-      "name": "Restart_Button",
-      "persistentUuid": "cb1a1185-1eb1-4e80-982c-5264fb4f8eb7",
-      "width": 375,
-      "x": 1444,
-      "y": 871,
-      "zOrder": 26,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 256,
-      "keepRatio": true,
-      "layer": "End of Scene",
-      "name": "BlackSpace",
-      "persistentUuid": "0f2ced01-68e8-47dc-b064-34b4cdbe2e8b",
-      "width": 1351,
-      "x": -7,
-      "y": 893,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "End of Scene",
-      "name": "End_of_Scene",
-      "persistentUuid": "e8eb31e7-a3c8-4340-b7d5-3763b13279cb",
-      "width": 0,
-      "x": 106,
-      "y": 938,
-      "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -8067,192 +7920,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite2",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "BACKGROUND(NIGHT)3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1169,
-                        "y": 0
-                      },
-                      {
-                        "x": 1169,
-                        "y": 797
-                      },
-                      {
-                        "x": 0,
-                        "y": 797
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "d00645a899e762e085fa6fdf2625701baea9cc10ee903a64ca7d371e5bbb8dca",
-      "name": "Restart_Button",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 0,
-        "RightPadding": 0,
-        "PressedLabelOffsetY": 2,
-        "BottomPadding": 4,
-        "TopPadding": 0,
-        "HoveredFadeOutDuration": 0
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 10,
-          "height": 64,
-          "leftMargin": 6,
-          "rightMargin": 6,
-          "texture": "Floating Out Button Dark Blue_Hovered.png",
-          "tiled": false,
-          "topMargin": 10,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 10,
-          "height": 64,
-          "leftMargin": 6,
-          "rightMargin": 6,
-          "texture": "Floating Out Button Dark Blue_Idle.png",
-          "tiled": false,
-          "topMargin": 10,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Restart",
-          "font": "68a5dc0db819d176c1744185164579a9b7c4231b6386d9e1e0966e520f850fcc_BerkshireSwash-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 100,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Restart",
-            "font": "68a5dc0db819d176c1744185164579a9b7c4231b6386d9e1e0966e520f850fcc_BerkshireSwash-Regular.ttf",
-            "textAlignment": "center",
-            "verticalTextAlignment": "top",
-            "characterSize": 100,
-            "color": "255;255;255"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 10,
-          "height": 64,
-          "leftMargin": 6,
-          "rightMargin": 6,
-          "texture": "Floating Out Button Dark Blue_Pressed.png",
-          "tiled": false,
-          "topMargin": 10,
-          "width": 192
-        }
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "End_of_Scene",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "You stole all of the presents! Good job!",
-      "font": "68a5dc0db819d176c1744185164579a9b7c4231b6386d9e1e0966e520f850fcc_BerkshireSwash-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 70,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "You stole all of the presents! Good job!",
-        "font": "68a5dc0db819d176c1744185164579a9b7c4231b6386d9e1e0966e520f850fcc_BerkshireSwash-Regular.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 70,
-        "color": "255;255;255"
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -8301,15 +7968,6 @@
       },
       {
         "objectName": "FlatHeartBar"
-      },
-      {
-        "objectName": "NewSprite2"
-      },
-      {
-        "objectName": "Restart_Button"
-      },
-      {
-        "objectName": "End_of_Scene"
       }
     ]
   },
@@ -8345,18 +8003,6 @@
           "parameters": [
             "Whos",
             "\"Door\""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlayMusic"
-          },
-          "parameters": [
-            "",
-            "magic-christmas-night-264068.mp3",
-            "yes",
-            "30",
-            "1"
           ]
         }
       ]
@@ -8641,33 +8287,14 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Or"
+            "value": "Health::Health::Health"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "Health::Health::Health"
-              },
-              "parameters": [
-                "Grinch",
-                "Health",
-                "<=",
-                "0",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SceneInstancesCount"
-              },
-              "parameters": [
-                "Whos3",
-                "Presents",
-                "=",
-                "0"
-              ]
-            }
+          "parameters": [
+            "Grinch",
+            "Health",
+            "<=",
+            "0",
+            ""
           ]
         }
       ],
@@ -8749,262 +8376,12 @@
           },
           "parameters": [
             "Presents_Collected",
-            "=",
-            "25"
+            ">=",
+            "208"
           ]
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "christmas-chimes-whoosh-264368.mp3",
-            "",
-            "60",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "Presents_Collected",
-            "=",
-            "50"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "christmas-chimes-whoosh-264368.mp3",
-            "",
-            "60",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "Presents_Collected",
-            "=",
-            "75"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "christmas-chimes-whoosh-264368.mp3",
-            "",
-            "60",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "Presents_Collected",
-            "=",
-            "100"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "christmas-chimes-whoosh-264368.mp3",
-            "",
-            "60",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "Presents_Collected",
-            "=",
-            "125"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "christmas-chimes-whoosh-264368.mp3",
-            "",
-            "60",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "Presents_Collected",
-            "=",
-            "150"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "christmas-chimes-whoosh-264368.mp3",
-            "",
-            "60",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "Presents_Collected",
-            "=",
-            "175"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "christmas-chimes-whoosh-264368.mp3",
-            "",
-            "60",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "Presents_Collected",
-            "=",
-            "200"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "christmas-chimes-whoosh-264368.mp3",
-            "",
-            "60",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneInstancesCount"
-          },
-          "parameters": [
-            "Whos3",
-            "Presents",
-            "=",
-            "0"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ShowLayer"
-          },
-          "parameters": [
-            "",
-            "\"End of Scene\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "5"
-          ]
-        },
         {
           "type": {
             "value": "Scene"
@@ -9139,18 +8516,6 @@
             "808",
             "0",
             "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "christmas-vibes-windy-whoosh-magical-chimes-180863.mp3",
-            "",
-            "60",
-            "1"
           ]
         }
       ]
@@ -9548,56 +8913,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
-          },
-          "parameters": [
-            "Restart_Button",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PushScene"
-          },
-          "parameters": [
-            "",
-            "\"Stealing\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "s"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PushScene"
-          },
-          "parameters": [
-            "",
-            "\"Story Middle\""
-          ]
-        }
-      ]
     }
   ],
   "layers": [
@@ -9655,7 +8970,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "Layer",
       "renderingType": "",
       "visibility": true,
@@ -9688,7 +9003,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "PRESENTS!!!",
       "renderingType": "",
       "visibility": true,
@@ -9721,43 +9036,10 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "Whos",
       "renderingType": "",
       "visibility": true,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Light",
-          "doubleParameters": {
-            "elevation": 45,
-            "intensity": 1,
-            "rotation": 0
-          },
-          "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
-            "top": "Y-"
-          },
-          "booleanParameters": {}
-        }
-      ]
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": true,
-      "name": "End of Scene",
-      "renderingType": "",
-      "visibility": false,
       "cameras": [],
       "effects": [
         {

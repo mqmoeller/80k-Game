@@ -4,8 +4,8 @@
 		"tags": "",
 		"body": "Every Who Down in Whoville Liked Christmas a lot... But the Grinch who lived just north of Whoville, Did NOT! The Grinch hated Christmas! The whole Christmas season!\n\nNow, please don't ask why. No one quite knows the reason. \n\n\n[[Next|Option2]]",
 		"position": {
-			"x": -13,
-			"y": 57
+			"x": -14,
+			"y": 56
 		},
 		"colorID": 0
 	},
@@ -32,10 +32,10 @@
 	{
 		"title": "Option2",
 		"tags": "",
-		"body": "\"Tomorrow is Christmas! It's practically here! I MUST find some way to stop Christmas from coming!\" For Tomorrow, he knew, all the Who girls and boys would wake bright and early.\n[[next|option3]]",
+		"body": "\"Tomorrow is Christmas! I MUST find some way to stop Christmas from coming!\" For Tomorrow, he knew, all the Who girls and boys would wake bright and early.\n[[next|option3]]",
 		"position": {
-			"x": 260,
-			"y": 57
+			"x": 259,
+			"y": 56
 		},
 		"colorID": 0
 	},
@@ -54,8 +54,8 @@
 		"tags": "",
 		"body": "Then the Grinch said, \"Giddap!\" And the sleigh started down, toward the homes where the Whos lay asnooze in their town. \nThe Grinch slithered and slunk, with a smile most unpleasant, to sneak into Whoville and take every present!\n\nBut the Whos aren't fools—they patrol every street to protect their gifts and the Christmas treat! Now it's YOUR turn to help the Grinch succeed.\n\nSteal the presents, fulfill his need! But beware of the Whovillagers who roam the land, avoid their sights and their reprimanding hand!\n\n[[next|Nextscene]] |]]",
 		"position": {
-			"x": 630,
-			"y": 313
+			"x": 628,
+			"y": 311
 		},
 		"colorID": 0
 	}

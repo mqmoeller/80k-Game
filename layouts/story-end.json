@@ -85,12 +85,12 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
-      "name": "skip",
-      "persistentUuid": "9fd56c59-d397-435f-ac66-1ac5bb228d9c",
+      "layer": "Words",
+      "name": "Skip",
+      "persistentUuid": "570a254b-2a6d-427b-8152-a47436c4a079",
       "width": 0,
-      "x": 1744,
-      "y": 167,
+      "x": 1739,
+      "y": 228,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -150,7 +150,18 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
       "string": "Next",
       "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
       "textAlignment": "left",
@@ -246,7 +257,7 @@
       "assetStoreId": "",
       "bold": true,
       "italic": false,
-      "name": "skip",
+      "name": "Skip",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -290,7 +301,7 @@
         "text": "Skip",
         "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
+        "verticalTextAlignment": "center",
         "characterSize": 45,
         "color": "255;255;255"
       }
@@ -306,7 +317,7 @@
         "objectName": "next"
       },
       {
-        "objectName": "skip"
+        "objectName": "Skip"
       },
       {
         "objectName": "Background"
@@ -337,6 +348,14 @@
         },
         {
           "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Skip"
+          ]
+        },
+        {
+          "type": {
             "value": "Montre"
           },
           "parameters": [
@@ -351,18 +370,6 @@
           "parameters": [
             "",
             "Dialogue3"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "magic-christmas-night-264068.mp3",
-            "yes",
-            "60",
-            "1"
           ]
         }
       ]
@@ -394,6 +401,15 @@
           },
           "parameters": [
             "dialogue3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Skip",
             ""
           ]
         },
@@ -480,11 +496,12 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "dialogue",
-                "Left"
+                "next",
+                "ButtonFSM",
+                ""
               ]
             },
             {
@@ -498,6 +515,35 @@
             {
               "type": {
                 "value": "DialogueTree::GoToNextLine"
+              },
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Skip",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::CompleteClippedTextScrolling"
               },
               "parameters": []
             }
@@ -529,28 +575,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Return"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::CompleteClippedTextScrolling"
-              },
-              "parameters": []
-            }
-          ]
         }
       ]
     },
@@ -562,7 +586,7 @@
             "value": "DialogueTree::CurrentBranchTitle"
           },
           "parameters": [
-            "\"test\""
+            "\"Restart\""
           ]
         }
       ],
@@ -573,34 +597,8 @@
           },
           "parameters": [
             "",
-            "\"Returning\"",
+            "\"Story Intro\"",
             ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "ButtonStates::ButtonFSM::IsClicked"
-          },
-          "parameters": [
-            "skip",
-            "ButtonFSM",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PushScene"
-          },
-          "parameters": [
-            "",
-            "\"Credits\""
           ]
         }
       ]
