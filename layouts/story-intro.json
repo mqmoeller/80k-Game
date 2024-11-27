@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.44485159988866496,
+    "zoomFactor": 0.26167741169921505,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -40,8 +40,8 @@
       "name": "StartButton",
       "persistentUuid": "db331428-05b7-4f25-8ca4-9b5720d1b5f5",
       "width": 320,
-      "x": 1481,
-      "y": 331,
+      "x": 1752,
+      "y": 190,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -51,14 +51,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1152,
+      "height": 1307,
       "keepRatio": true,
       "layer": "",
       "name": "Background",
       "persistentUuid": "a17d2c88-818a-48ef-babf-3cbfc286646a",
-      "width": 2072,
+      "width": 2351,
       "x": -54,
-      "y": -32,
+      "y": -105,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -90,9 +90,25 @@
       "name": "next",
       "persistentUuid": "b3787663-a8f8-4dd8-8d51-138002dbdd76",
       "width": 0,
-      "x": 1288,
-      "y": 703,
+      "x": 1458,
+      "y": 686,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Words",
+      "name": "skip",
+      "persistentUuid": "f912fa67-a471-48e8-af86-0a2bfedd418e",
+      "width": 0,
+      "x": 1456,
+      "y": 755,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -314,6 +330,59 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "skip",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "string": "Skip",
+      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "textAlignment": "left",
+      "characterSize": 45,
+      "color": {
+        "b": 250,
+        "g": 250,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Skip",
+        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 45,
+        "color": "255;250;250"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -324,6 +393,9 @@
       },
       {
         "objectName": "next"
+      },
+      {
+        "objectName": "skip"
       },
       {
         "objectName": "Background"
@@ -391,6 +463,14 @@
             "yes",
             "60",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "skip"
           ]
         }
       ]
@@ -474,6 +554,15 @@
           },
           "parameters": [
             "\"Start\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "skip",
+            ""
           ]
         }
       ]
@@ -637,6 +726,32 @@
             "",
             "\"Stealing\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "skip",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Stealing\""
           ]
         }
       ]
