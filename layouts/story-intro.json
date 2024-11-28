@@ -112,6 +112,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Startbutton",
+      "name": "StartButton",
+      "persistentUuid": "6008798b-60b9-4ced-9e78-422a76cf7463",
+      "width": 0,
+      "x": 1616,
+      "y": 123,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
