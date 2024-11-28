@@ -56,8 +56,8 @@
       "name": "next",
       "persistentUuid": "398e20d2-2734-460c-850a-a50abc353c22",
       "width": 0,
-      "x": 1737,
-      "y": 101,
+      "x": 1731,
+      "y": 129,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -89,8 +89,8 @@
       "name": "skip",
       "persistentUuid": "fca6e1a1-be41-423d-aacf-ba7195f4ca69",
       "width": 0,
-      "x": 1735,
-      "y": 182,
+      "x": 1739,
+      "y": 185,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -167,7 +167,18 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
       "string": "Next",
       "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
       "textAlignment": "left",
@@ -194,7 +205,7 @@
         "text": "Next",
         "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
+        "verticalTextAlignment": "center",
         "characterSize": 45,
         "color": "255;255;255"
       }
@@ -588,11 +599,12 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "dialogue",
-                "Left"
+                "next",
+                "ButtonFSM",
+                ""
               ]
             },
             {
@@ -664,28 +676,6 @@
                 "=",
                 "0.03"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Return"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::CompleteClippedTextScrolling"
-              },
-              "parameters": []
             }
           ]
         }

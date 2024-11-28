@@ -1126,6 +1126,15 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/422c901b9a2764004c7af15c9c6ed3829ca984ec024c482230e757bec2d488d8_Next.png",
           "name": "Next.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tint2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tint2",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

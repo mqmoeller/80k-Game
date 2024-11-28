@@ -184,7 +184,18 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
       "string": "Next",
       "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
       "textAlignment": "left",
@@ -308,7 +319,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "tint",
+                  "image": "tint2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -739,11 +750,12 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonReleased"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "dialogue",
-                "Left"
+                "next",
+                "ButtonFSM",
+                ""
               ]
             },
             {
@@ -815,28 +827,6 @@
                 "=",
                 "0.04"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Return"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::CompleteClippedTextScrolling"
-              },
-              "parameters": []
             }
           ]
         }
