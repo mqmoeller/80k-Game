@@ -95,6 +95,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 177,
+      "keepRatio": true,
+      "layer": "Words",
+      "name": "Next",
+      "persistentUuid": "6aa54aa0-5ad0-4c89-9e5f-7304543442ae",
+      "width": 161,
+      "x": 1711,
+      "y": 865,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -294,6 +311,77 @@
         "characterSize": 45,
         "color": "255;255;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "db35d0a8c406e73453413b94f88177702a5aaf5e3ba2132a0023b0490386bab2",
+      "name": "Next",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Next.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 114,
+                        "y": 0
+                      },
+                      {
+                        "x": 114,
+                        "y": 125
+                      },
+                      {
+                        "x": 0,
+                        "y": 125
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -310,6 +398,9 @@
       },
       {
         "objectName": "Background"
+      },
+      {
+        "objectName": "Next"
       }
     ]
   },
@@ -342,6 +433,14 @@
           "parameters": [
             "next",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "skip"
           ]
         },
         {
@@ -394,6 +493,15 @@
           },
           "parameters": [
             "dialogue3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "skip",
             ""
           ]
         },
@@ -508,6 +616,35 @@
           "conditions": [
             {
               "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "skip",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::CompleteClippedTextScrolling"
+              },
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "inverted": true,
                 "value": "KeyPressed"
               },
@@ -562,7 +699,7 @@
             "value": "DialogueTree::CurrentBranchTitle"
           },
           "parameters": [
-            "\"test\""
+            "\"Credits\""
           ]
         }
       ],
@@ -573,7 +710,7 @@
           },
           "parameters": [
             "",
-            "\"Returning\"",
+            "\"Credits\"",
             ""
           ]
         }
@@ -587,7 +724,7 @@
             "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
-            "skip",
+            "Next",
             "ButtonFSM",
             ""
           ]

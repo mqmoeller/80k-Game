@@ -36,7 +36,7 @@
       "depth": 3,
       "height": 142,
       "keepRatio": true,
-      "layer": "Startbutton",
+      "layer": "button",
       "name": "StartButton",
       "persistentUuid": "db331428-05b7-4f25-8ca4-9b5720d1b5f5",
       "width": 320,
@@ -109,6 +109,23 @@
       "x": 1290,
       "y": 732,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 178,
+      "keepRatio": true,
+      "layer": "button",
+      "name": "NextButton",
+      "persistentUuid": "9d90940d-3280-41ad-bcba-f204b50c6a2a",
+      "width": 162,
+      "x": 1703,
+      "y": 855,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -383,6 +400,77 @@
         "characterSize": 45,
         "color": "255;250;250"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "db35d0a8c406e73453413b94f88177702a5aaf5e3ba2132a0023b0490386bab2",
+      "name": "NextButton",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Next.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 114,
+                        "y": 0
+                      },
+                      {
+                        "x": 114,
+                        "y": 125
+                      },
+                      {
+                        "x": 0,
+                        "y": 125
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -402,6 +490,9 @@
       },
       {
         "objectName": "StartButton"
+      },
+      {
+        "objectName": "NextButton"
       }
     ]
   },
@@ -446,6 +537,22 @@
         },
         {
           "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "skip"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "NextButton"
+          ]
+        },
+        {
+          "type": {
             "value": "DialogueTree::LoadDialogueFromJsonFile"
           },
           "parameters": [
@@ -463,14 +570,6 @@
             "yes",
             "60",
             "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "skip"
           ]
         }
       ]
@@ -541,6 +640,24 @@
         },
         {
           "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "skip",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "NextButton",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "ResetTimer"
           },
           "parameters": [
@@ -554,15 +671,6 @@
           },
           "parameters": [
             "\"Start\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "skip",
-            ""
           ]
         }
       ]
@@ -659,6 +767,35 @@
           "conditions": [
             {
               "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "skip",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::CompleteClippedTextScrolling"
+              },
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "inverted": true,
                 "value": "KeyPressed"
               },
@@ -738,7 +875,7 @@
             "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
-            "skip",
+            "NextButton",
             "ButtonFSM",
             ""
           ]
@@ -813,7 +950,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Startbutton",
+      "name": "button",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
