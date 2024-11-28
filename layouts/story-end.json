@@ -482,11 +482,12 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonReleased"
+            "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
-            "dialogue",
-            "Left"
+            "next",
+            "ButtonFSM",
+            ""
           ]
         },
         {
