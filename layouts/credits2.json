@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Credits",
-  "name": "Credits",
+  "mangledName": "Credits2",
+  "name": "Credits2",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -313,23 +313,6 @@
       "actions": [
         {
           "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "dialogue4"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "next",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "PlaySound"
           },
           "parameters": [
@@ -339,30 +322,15 @@
             "60",
             "1"
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonReleased"
-          },
-          "parameters": [
-            "dialogue",
-            "Left"
-          ]
         },
         {
           "type": {
-            "inverted": true,
-            "value": "DialogueTree::IsDialogueRunning"
+            "value": "Cache"
           },
-          "parameters": []
-        }
-      ],
-      "actions": [
+          "parameters": [
+            "next"
+          ]
+        },
         {
           "type": {
             "value": "Montre"
@@ -370,161 +338,6 @@
           "parameters": [
             "dialogue4",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"scrollText\""
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::StartDialogueFromBranch"
-          },
-          "parameters": [
-            "\"Start\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DialogueTree::IsDialogueLineType"
-          },
-          "parameters": [
-            "\"text\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "dialogue4",
-            "Text",
-            "=",
-            "DialogueTree::ClippedLineText()"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"scrollText\"",
-                ">=",
-                "Variable(textscrollspeed)"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::ScrollClippedText"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"scrollText\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "dialogue",
-                "Left"
-              ]
-            },
-            {
-              "type": {
-                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::GoToNextLine"
-              },
-              "parameters": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Tab"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "textscrollspeed",
-                "=",
-                "0.03"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Return"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::CompleteClippedTextScrolling"
-              },
-              "parameters": []
-            }
           ]
         }
       ]
