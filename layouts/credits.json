@@ -32,23 +32,6 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 67,
-      "keepRatio": true,
-      "layer": "Words",
-      "name": "dialogue3",
-      "persistentUuid": "41dcd0c8-d634-40b2-bf1a-3820b172eae8",
-      "width": 1502,
-      "x": 82,
-      "y": 103,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -79,6 +62,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1187,
+      "keepRatio": true,
+      "layer": "Words",
+      "name": "dialogue4",
+      "persistentUuid": "3514d20e-1c92-4402-9830-72cc359264fb",
+      "width": 1853,
+      "x": 32,
+      "y": -2,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -86,17 +86,17 @@
       "assetStoreId": "",
       "bold": true,
       "italic": false,
-      "name": "dialogue3",
+      "name": "dialogue4",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Dialogue",
+      "string": "Credits:\nYulia Vasyura\n-Made the base game\nKathryn Dea\n-Story progression and theme\nMitch Moeller\n-Music/Sound and assisted in base game.\n\n\nMusic:\nDJARTMUSIC on Pixabay\nhttps://pixabay.com/sound-effects/christmas-whoosh-2-264375/\n\n“Magic Christmas Night” \nTop Flow on Pixabay\nhttps://pixabay.com/music/christmas-magic-christmas-night-264068/\n\n\nChristmas Vibes - Windy Whoosh, Magical Chimes\nBryanSantosBreton on Pixabay\nhttps://pixabay.com/sound-effects/christmas-vibes-windy-whoosh-magical-chimes-180863/\n\nArt work:\nGame Background: Yulia Vasyura\nStory Beginning Background Mixture Whoville: https://www.amazon.com/5-9x3-6ft-Christmas-Photography-Background-Decoration/dp/B0CJML869K\nand Grinch: https://www.pinterest.com/pin/holiday-planning-the-grinch-christmas-whoville-etsy-canada--226305950019372738/\nStory Middle Background: Philip Sites, https://weekendroady.com/2012/12/21/the-real-whoville/\nStory Ending Background: Mary Desy, Istock\n\n",
       "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
-      "textAlignment": "left",
-      "characterSize": 40,
+      "textAlignment": "center",
+      "characterSize": 21,
       "color": {
         "b": 255,
         "g": 255,
@@ -104,10 +104,10 @@
       },
       "content": {
         "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
         "italic": false,
-        "outlineColor": "255;255;255",
+        "outlineColor": "0;0;0",
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
@@ -116,11 +116,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Dialogue",
+        "text": "Credits:\nYulia Vasyura\n-Made the base game\nKathryn Dea\n-Story progression and theme\nMitch Moeller\n-Music/Sound and assisted in base game.\n\n\nMusic:\nDJARTMUSIC on Pixabay\nhttps://pixabay.com/sound-effects/christmas-whoosh-2-264375/\n\n“Magic Christmas Night” \nTop Flow on Pixabay\nhttps://pixabay.com/music/christmas-magic-christmas-night-264068/\n\n\nChristmas Vibes - Windy Whoosh, Magical Chimes\nBryanSantosBreton on Pixabay\nhttps://pixabay.com/sound-effects/christmas-vibes-windy-whoosh-magical-chimes-180863/\n\nArt work:\nGame Background: Yulia Vasyura\nStory Beginning Background Mixture Whoville: https://www.amazon.com/5-9x3-6ft-Christmas-Photography-Background-Decoration/dp/B0CJML869K\nand Grinch: https://www.pinterest.com/pin/holiday-planning-the-grinch-christmas-whoville-etsy-canada--226305950019372738/\nStory Middle Background: Philip Sites, https://weekendroady.com/2012/12/21/the-real-whoville/\nStory Ending Background: Mary Desy, Istock\n\n",
         "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
-        "textAlignment": "left",
+        "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 40,
+        "characterSize": 21,
         "color": "255;255;255"
       }
     },
@@ -284,7 +284,7 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "dialogue3"
+        "objectName": "dialogue4"
       },
       {
         "objectName": "next"
@@ -316,7 +316,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "dialogue3"
+            "dialogue4"
           ]
         },
         {
@@ -326,15 +326,6 @@
           "parameters": [
             "next",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::LoadDialogueFromJsonFile"
-          },
-          "parameters": [
-            "",
-            "Dialogue3"
           ]
         },
         {
@@ -377,7 +368,7 @@
             "value": "Montre"
           },
           "parameters": [
-            "dialogue3",
+            "dialogue4",
             ""
           ]
         },
@@ -418,7 +409,7 @@
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "dialogue3",
+            "dialogue4",
             "Text",
             "=",
             "DialogueTree::ClippedLineText()"
