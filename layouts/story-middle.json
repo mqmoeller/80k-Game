@@ -531,7 +531,7 @@
             "value": "DialogueTree::StartDialogueFromBranch"
           },
           "parameters": [
-            "\"First\""
+            "\"Start\""
           ]
         }
       ]
@@ -697,6 +697,12 @@
       "actions": [
         {
           "type": {
+            "value": "DialogueTree::StopRunningDialogue"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
@@ -722,6 +728,12 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "DialogueTree::StopRunningDialogue"
+          },
+          "parameters": []
+        },
         {
           "type": {
             "value": "PushScene"

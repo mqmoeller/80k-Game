@@ -90,8 +90,8 @@
       "name": "next",
       "persistentUuid": "b3787663-a8f8-4dd8-8d51-138002dbdd76",
       "width": 0,
-      "x": 1292,
-      "y": 663,
+      "x": 1385,
+      "y": 651,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -106,8 +106,8 @@
       "name": "skip",
       "persistentUuid": "f912fa67-a471-48e8-af86-0a2bfedd418e",
       "width": 0,
-      "x": 1290,
-      "y": 732,
+      "x": 1383,
+      "y": 720,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -847,6 +847,12 @@
       "actions": [
         {
           "type": {
+            "value": "DialogueTree::StopRunningDialogue"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
@@ -872,6 +878,12 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "DialogueTree::StopRunningDialogue"
+          },
+          "parameters": []
+        },
         {
           "type": {
             "value": "PushScene"
